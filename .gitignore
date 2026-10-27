@@ -1,0 +1,28 @@
+# Keep the data directory private by default. The ontology is public source data.
+/data/*
+!/data/ontology.json
+!/data/uploaded_pdfs/
+/data/uploaded_pdfs/*
+!/data/uploaded_pdfs/.gitkeep
+
+# Local runtime, model weights, generated files and private review material
+/trash/
+/.venv/
+/runtime/
+/models/
+/.local/
+/logs/
+/deliverables/
+*.exe
+*.pdf
+*.pptx
+*.zip
+
+# Python/tool caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.log
+*.spec

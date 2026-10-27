@@ -1,0 +1,8 @@
+streamlit
+pymupdf
+Pillow
+rapidocr-onnxruntime
+rank_bm25
+chromadb
+sentence-transformers
+google-genai
